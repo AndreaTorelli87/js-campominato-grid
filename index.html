@@ -10,15 +10,30 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body class="p-0 m-0">
-       <header class="">
-        <button id="gioca">Gioca</button>
+       <header class="d-flex justify-content-between">
+            <div class="p-2">
+                <img src="img/Logo.png" alt="Logo" class="d-inline-block">
+                <h1 class="d-inline-block align-middle">Campo Minato</h1>
+            </div>
+            <div>
+                <label for="difficolta">Difficoltà: </label>
+                <select id="difficolta">
+                    <option value="Easy" selected>Easy</option>
+                    <option value="Hard">Hard</option>
+                    <option value="Impossible">Impossible</option>
+                </select>
+                <button id="gioca" class="btn btn-outline-success m-3">Gioca</button>
+            </div> 
        </header>
-        <div class="container d-flex align-items-center">
-            <div id="griglia" class="d-flex flex-wrap"></div>
+       <main class="overflow-scroll">
+            <div class="container d-flex align-items-center">
+            <div id="griglia" class="d-flex flex-wrap">
+                <h2>Clicca su "Gioca" per iniziare una nuova partita!!!</h2>
+            </div>
         </div>
+       </main>
         <footer class="">
-            <hr/>
-            <p>Made with &#128151; by <a href="https://github.com/AndreaTorelli87">Andrea</a></p>
+            <p class="m-2 align-middle">Made with &#128151; by <a href="https://github.com/AndreaTorelli87">Andrea</a></p>
         </footer>
         <script type="text/javascript" src="js/main.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>

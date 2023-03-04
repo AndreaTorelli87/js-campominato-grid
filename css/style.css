@@ -3,30 +3,30 @@
 }
 
 body{
+   background-color: white;
+}
+
+main{
    background-color: #7FFFD4;
 }
 
 .container{
    background-color: transparent;
-   height: calc(100vh - 10rem);
+   height: calc(100vh - 8rem);
 }
 
 #griglia{
    max-width: 32rem;
    margin: auto;
-   background-color: black;
-}
-
-div{
-   background-color: #7FFFD4;
 }
 
 #griglia div{
    height: 3rem;
    width: 3rem;
-   margin: 0.1rem;
    text-align: center;
    line-height: 3rem;
+   border: solid black 1px;
+   background-color: #7FFFD4;
 }
 
 #griglia div:hover{
@@ -34,11 +34,14 @@ div{
    transition: scale 0.3s;
 }   
 
-.fizz{
+.selected{
    background-color: #61D2A4;
 }
 
-header, footer{
-   height: 4.5rem;
-   background-color: white;
+header{
+   min-height: 4.5rem;
+}
+
+footer{
+   min-height: 2.5rem;
 }
