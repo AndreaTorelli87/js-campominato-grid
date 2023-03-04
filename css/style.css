@@ -16,7 +16,6 @@ main{
 }
 
 #griglia{
-   max-width: 32rem;
    margin: auto;
 }
 
@@ -34,7 +33,7 @@ main{
    transition: scale 0.3s;
 }   
 
-.selected{
+#griglia .square{
    background-color: #61D2A4;
 }
 
@@ -44,4 +43,15 @@ header{
 
 footer{
    min-height: 2.5rem;
+}
+.griglia-100{
+   max-width: 32rem;
+}
+
+.griglia-64{
+   max-width: 24rem;
+}
+
+.griglia-36{
+   max-width: 18rem;
 }
