@@ -11,10 +11,10 @@ gioca.addEventListener('click',
          difficoltà = 100;
          griglia.className = "d-flex flex-wrap griglia-100";
       } else if (difficoltaDom == "Hard") {
-         difficoltà = 64;
+         difficoltà = 81;
          griglia.className = "d-flex flex-wrap griglia-64";
       } else if (difficoltaDom == "Impossible") {
-         difficoltà = 36;
+         difficoltà = 49;
          griglia.className = "d-flex flex-wrap griglia-36";
       }
 
